@@ -1,0 +1,902 @@
+﻿Log file open, 01/10/17 19:26:30
+LogInit:Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1987189123) SRandInit(1987189123).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.068671
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3224400
+LogInit: Engine Version: 4.14.1-3224400+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Dec  7 2016 02:14:32
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.01.11-03.26.31:124][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.11-03.26.31:124][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.01.11-03.26.31:132][  0]LogInit: Computer: DESKTOP-9FFQSS5
+[2017.01.11-03.26.31:132][  0]LogInit: User: Pat
+[2017.01.11-03.26.31:132][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.01.11-03.26.31:132][  0]LogInit: High frequency timer resolution =3.914062 MHz
+[2017.01.11-03.26.31:132][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2017.01.11-03.26.31:132][  0]LogMemory: Platform Memory Stats for Windows
+[2017.01.11-03.26.31:132][  0]LogMemory: Process Physical Memory: 264.32 MB used, 264.32 MB peak
+[2017.01.11-03.26.31:132][  0]LogMemory: Process Virtual Memory: 262.82 MB used, 262.82 MB peak
+[2017.01.11-03.26.31:132][  0]LogMemory: Physical Memory: 15185.15 MB used,  17541.51 MB free, 32726.66 MB total
+[2017.01.11-03.26.31:132][  0]LogMemory: Virtual Memory: 676.40 MB used,  17541.51 MB free, 134217728.00 MB total
+[2017.01.11-03.26.31:153][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.01.11-03.26.31:586][  0]LogD3D11RHI: D3D11 adapters:
+[2017.01.11-03.26.31:613][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.01.11-03.26.31:613][  0]LogD3D11RHI:       8144/0/16363 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.01.11-03.26.31:613][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.01.11-03.26.31:613][  0]LogD3D11RHI:       0/0/16363 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.01.11-03.26.31:613][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.01.11-03.26.31:618][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.01.11-03.26.31:618][  0]LogD3D11RHI:     GPU DeviceId: 0x1be0 (for the marketing name, search the web for "GPU Device Id")
+[2017.01.11-03.26.31:618][  0]LogWindows: EnumDisplayDevices:
+[2017.01.11-03.26.31:618][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.01.11-03.26.31:619][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.01.11-03.26.31:619][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.01.11-03.26.31:619][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.01.11-03.26.31:619][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.01.11-03.26.31:619][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.01.11-03.26.31:619][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
+[2017.01.11-03.26.31:619][  0]LogD3D11RHI:      Driver Date: 12-11-2016
+[2017.01.11-03.26.31:619][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.01.11-03.26.31:631][  0]LogD3D11RHI: Async texture creation enabled
+[2017.01.11-03.26.31:645][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.01.11-03.26.31:646][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Intermediate/Shaders/WorkingDirectory/1992/).
+[2017.01.11-03.26.31:646][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Pat/AppData/Local/Temp/UnrealShaderWorkingDir/CCFA875E499305B5DD43E19CDF262619/'.
+[2017.01.11-03.26.31:646][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.01.11-03.26.32:363][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.01.11-03.26.32:401][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.01.11-03.26.32:437][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.01.11-03.26.32:473][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.01.11-03.26.32:510][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.01.11-03.26.32:547][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.01.11-03.26.32:583][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.01.11-03.26.32:621][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.01.11-03.26.32:650][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.01.11-03.26.32:686][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.01.11-03.26.32:722][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.01.11-03.26.32:757][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.01.11-03.26.32:795][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.01.11-03.26.32:830][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.01.11-03.26.32:868][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.01.11-03.26.32:955][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.01.11-03.26.32:955][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.01.11-03.26.32:979][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.01.11-03.26.33:040][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.01.11-03.26.33:077][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.01.11-03.26.33:116][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.01.11-03.26.33:151][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.01.11-03.26.33:186][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.01.11-03.26.33:240][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.01.11-03.26.33:240][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.01.11-03.26.33:516][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.01.11-03.26.33:550][  0]LogDerivedDataCache: Loaded boot cache 0.03s 50MB C:/Users/Pat/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.01.11-03.26.33:550][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Pat/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.01.11-03.26.33:550][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.01.11-03.26.33:550][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.01.11-03.26.33:550][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.01.11-03.26.33:550][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.01.11-03.26.33:562][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.01.11-03.26.33:574][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Pat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.01.11-03.26.33:725][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.11-03.26.33:727][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.01.11-03.26.33:865][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.01.11-03.26.33:893][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.01.11-03.26.33:923][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.01.11-03.26.33:923][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.01.11-03.26.33:923][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.01.11-03.26.34:255][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: myproject, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2754685603
+[2017.01.11-03.26.34:299][  0]LogAssetRegistry: FAssetRegistry took 0.0210 seconds to start up
+[2017.01.11-03.26.34:333][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.019449 seconds
+[2017.01.11-03.26.34:337][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.01.11-03.26.34:337][  0]LogUObjectAllocator: 6935840 out of 0 bytes used by permanent object pool.
+[2017.01.11-03.26.34:337][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.01.11-03.26.34:379][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.01.11-03.26.34:860][  0]LogSlate: Using Freetype 2.6.0
+[2017.01.11-03.26.34:861][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.11-03.26.34:861][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.11-03.26.35:398][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.01.11-03.26.35:429][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.01.11-03.26.35:744][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.01.11-03.26.35:999][  0]SourceControl: Info Source control is disabled
+[2017.01.11-03.26.36:029][  0]SourceControl: Info Source control is disabled
+[2017.01.11-03.26.36:060][  0]SourceControl: Info Source control is disabled
+[2017.01.11-03.26.36:090][  0]SourceControl: Info Source control is disabled
+[2017.01.11-03.26.36:986][  0]LogEngine: Initializing Engine...
+[2017.01.11-03.26.36:987][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.01.11-03.26.37:151][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.01.11-03.26.37:157][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.11-03.26.37:165][  0]LogInit: FAudioDevice initialized.
+[2017.01.11-03.26.37:182][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Pat/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.01.11-03.26.37:188][  0]LogInit: Texture streaming: Enabled
+[2017.01.11-03.26.37:313][  0]LogInit: Transaction tracking system initialized
+[2017.01.11-03.26.37:536][  0]BlueprintLog: New page: Editor Load
+[2017.01.11-03.26.38:103][  0]LocalizationService: Info Localization service is disabled
+[2017.01.11-03.26.38:548][  0]LogConsoleResponse:Display: 
+[2017.01.11-03.26.38:640][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.01.11-03.26.38:640][  0]LogCook:Display: Mobile HDR setting 1
+[2017.01.11-03.26.39:250][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pat/Documents/Unreal Projects/MyProject/Content/' took 0.01s
+[2017.01.11-03.26.39:279][  0]SourceControl: Info Source control is disabled
+[2017.01.11-03.26.39:279][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.11-03.26.39:279][  0]LightingResults: New page: Lighting Build
+[2017.01.11-03.26.39:305][  0]MapCheck: New page: Map Check
+[2017.01.11-03.26.39:305][  0]LightingResults: New page: Lighting Build
+[2017.01.11-03.26.39:507][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.01.11-03.26.39:508][  0]LogActorComponent: RegisterComponentWithWorld: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.01.11-03.26.39:512][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.11-03.26.39:512][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.11-03.26.39:539][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 26.176ms to complete.
+[2017.01.11-03.26.39:539][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.260
+[2017.01.11-03.26.39:600][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.01.11-03.26.39:654][  0]LogCollectionManager: Loaded 0 collections in 0.001360 seconds
+[2017.01.11-03.26.39:717][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pat/Documents/Unreal Projects/MyProject/Saved/Collections/' took 0.01s
+[2017.01.11-03.26.39:717][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pat/Documents/Unreal Projects/MyProject/Content/Developers/Pat/Collections/' took 0.01s
+[2017.01.11-03.26.39:717][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pat/Documents/Unreal Projects/MyProject/Content/Collections/' took 0.01s
+[2017.01.11-03.26.39:717][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.01.11-03.26.39:723][  0]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 2190 classes and 428 folders.
+[2017.01.11-03.26.39:750][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.01.11-03.26.39:750][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.01.11-03.26.39:751][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 13 classes and 0 folders.
+[2017.01.11-03.26.39:792][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.01.11-03.26.39:819][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.01.11-03.26.39:847][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2017.01.11-03.26.39:873][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.01.11-03.26.39:944][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.01.11-03.26.39:944][  0]LogLoad: (Engine Initialization) Total time: 9.94 seconds
+[2017.01.11-03.26.39:944][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.06 seconds
+[2017.01.11-03.26.39:944][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.01.11-03.26.39:944][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.01.11-03.26.39:961][  0]LogOcInput: OculusInput pre-init called
+[2017.01.11-03.26.39:974][  0]LogAssetRegistry: Asset discovery search completed in 5.6962 seconds
+[2017.01.11-03.26.39:974][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.01.11-03.26.39:974][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000010 seconds (updated 0 objects)
+[2017.01.11-03.26.39:976][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.01.11-03.26.40:093][  1]LogRenderer: Reallocating scene render targets to support 820x380 NumSamples 1 (Frame:2).
+[2017.01.11-03.26.54:815][328]LogRenderer: Reallocating scene render targets to support 1616x808 NumSamples 1 (Frame:326).
+[2017.01.11-03.35.19:836][518]LogFactory: FactoryCreateFile: World with FbxSceneImportFactory (0 0 ../../../../../../Users/Pat/Documents/ProjectSM/ProjectSM/Assets/Barn/Source/Imports/Barn.fbx)
+[2017.01.11-03.35.19:919][518]LogFbx: Loading FBX Scene from ../../../../../../Users/Pat/Documents/ProjectSM/ProjectSM/Assets/Barn/Source/Imports/Barn.fbx
+[2017.01.11-03.35.19:928][518]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.11-03.35.19:930][518]LogFbx: =================================================
+[2017.01.11-03.35.19:930][518]LogFbx: Dumping Node START [Barn] 
+[2017.01.11-03.35.19:930][518]LogFbx: 	Total Deformer Count -1935894272.
+[2017.01.11-03.35.19:930][518]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.01.11-03.35.19:930][518]LogFbx: 		[Node Attribute Child 1] Barn (Type Mesh).
+[2017.01.11-03.35.19:930][518]LogFbx: Dumping Node END [Barn]
+[2017.01.11-03.35.19:930][518]LogFbx: =================================================
+[2017.01.11-03.35.19:930][518]LogFbx: Dumping Node START [Barndoor2] 
+[2017.01.11-03.35.19:930][518]LogFbx: 	Total Deformer Count -1934183232.
+[2017.01.11-03.35.19:930][518]LogFbx: 	Attribute (Cube.009) Type (4).
+[2017.01.11-03.35.19:930][518]LogFbx: 		[Node Attribute Child 1] Barndoor2 (Type Mesh).
+[2017.01.11-03.35.19:930][518]LogFbx: Dumping Node END [Barndoor2]
+[2017.01.11-03.35.19:930][518]LogFbx: =================================================
+[2017.01.11-03.35.19:930][518]LogFbx: Dumping Node START [Barndoor1] 
+[2017.01.11-03.35.19:930][518]LogFbx: 	Total Deformer Count -1934183232.
+[2017.01.11-03.35.19:930][518]LogFbx: 	Attribute (Cube.019) Type (4).
+[2017.01.11-03.35.19:930][518]LogFbx: 		[Node Attribute Child 1] Barndoor1 (Type Mesh).
+[2017.01.11-03.35.19:930][518]LogFbx: Dumping Node END [Barndoor1]
+[2017.01.11-03.35.19:930][518]LogFbx: =================================================
+[2017.01.11-03.35.19:930][518]LogFbx: Dumping Node START [Barn] 
+[2017.01.11-03.35.19:930][518]LogFbx: 	Total Deformer Count -1935894272.
+[2017.01.11-03.35.19:930][518]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.01.11-03.35.19:930][518]LogFbx: 		[Node Attribute Child 1] Barn (Type Mesh).
+[2017.01.11-03.35.19:930][518]LogFbx: Dumping Node END [Barn]
+[2017.01.11-03.35.19:930][518]LogFbx: =================================================
+[2017.01.11-03.35.19:930][518]LogFbx: Dumping Node START [Barndoor2] 
+[2017.01.11-03.35.19:930][518]LogFbx: 	Total Deformer Count -1934183296.
+[2017.01.11-03.35.19:930][518]LogFbx: 	Attribute (Cube.009) Type (4).
+[2017.01.11-03.35.19:930][518]LogFbx: 		[Node Attribute Child 1] Barndoor2 (Type Mesh).
+[2017.01.11-03.35.19:930][518]LogFbx: Dumping Node END [Barndoor2]
+[2017.01.11-03.35.19:930][518]LogFbx: =================================================
+[2017.01.11-03.35.19:930][518]LogFbx: Dumping Node START [Barndoor1] 
+[2017.01.11-03.35.19:930][518]LogFbx: 	Total Deformer Count -1934183296.
+[2017.01.11-03.35.19:930][518]LogFbx: 	Attribute (Cube.019) Type (4).
+[2017.01.11-03.35.19:930][518]LogFbx: 		[Node Attribute Child 1] Barndoor1 (Type Mesh).
+[2017.01.11-03.35.19:930][518]LogFbx: Dumping Node END [Barndoor1]
+[2017.01.11-03.35.19:930][518]LogFbx: =================================================
+[2017.01.11-03.35.19:930][518]LogFbx: Dumping Node START [Barndoor2] 
+[2017.01.11-03.35.19:930][518]LogFbx: 	Total Deformer Count -1934183296.
+[2017.01.11-03.35.19:930][518]LogFbx: 	Attribute (Cube.009) Type (4).
+[2017.01.11-03.35.19:930][518]LogFbx: 		[Node Attribute Child 1] Barndoor2 (Type Mesh).
+[2017.01.11-03.35.19:930][518]LogFbx: Dumping Node END [Barndoor2]
+[2017.01.11-03.35.19:930][518]LogFbx: =================================================
+[2017.01.11-03.35.19:930][518]LogFbx: Dumping Node START [Barndoor1] 
+[2017.01.11-03.35.19:930][518]LogFbx: 	Total Deformer Count -1934183296.
+[2017.01.11-03.35.19:931][518]LogFbx: 	Attribute (Cube.019) Type (4).
+[2017.01.11-03.35.19:931][518]LogFbx: 		[Node Attribute Child 1] Barndoor1 (Type Mesh).
+[2017.01.11-03.35.19:931][518]LogFbx: Dumping Node END [Barndoor1]
+[2017.01.11-03.35.27:459][518]LogFbx: =================================================
+[2017.01.11-03.35.27:459][518]LogFbx: Dumping Node START [Barn] 
+[2017.01.11-03.35.27:459][518]LogFbx: 	Total Deformer Count -1936057008.
+[2017.01.11-03.35.27:459][518]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.01.11-03.35.27:459][518]LogFbx: 		[Node Attribute Child 1] Barn (Type Mesh).
+[2017.01.11-03.35.27:459][518]LogFbx: Dumping Node END [Barn]
+[2017.01.11-03.35.27:459][518]LogFbx: =================================================
+[2017.01.11-03.35.27:459][518]LogFbx: Dumping Node START [Barndoor2] 
+[2017.01.11-03.35.27:460][518]LogFbx: 	Total Deformer Count -1602127680.
+[2017.01.11-03.35.27:460][518]LogFbx: 	Attribute (Cube.009) Type (4).
+[2017.01.11-03.35.27:460][518]LogFbx: 		[Node Attribute Child 1] Barndoor2 (Type Mesh).
+[2017.01.11-03.35.27:460][518]LogFbx: Dumping Node END [Barndoor2]
+[2017.01.11-03.35.27:460][518]LogFbx: =================================================
+[2017.01.11-03.35.27:460][518]LogFbx: Dumping Node START [Barndoor1] 
+[2017.01.11-03.35.27:460][518]LogFbx: 	Total Deformer Count -1602127680.
+[2017.01.11-03.35.27:460][518]LogFbx: 	Attribute (Cube.019) Type (4).
+[2017.01.11-03.35.27:460][518]LogFbx: 		[Node Attribute Child 1] Barndoor1 (Type Mesh).
+[2017.01.11-03.35.27:460][518]LogFbx: Dumping Node END [Barndoor1]
+[2017.01.11-03.35.27:460][518]LogFbx: =================================================
+[2017.01.11-03.35.27:460][518]LogFbx: Dumping Node START [Barn] 
+[2017.01.11-03.35.27:460][518]LogFbx: 	Total Deformer Count -1936057008.
+[2017.01.11-03.35.27:460][518]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.01.11-03.35.27:460][518]LogFbx: 		[Node Attribute Child 1] Barn (Type Mesh).
+[2017.01.11-03.35.27:460][518]LogFbx: Dumping Node END [Barn]
+[2017.01.11-03.35.27:460][518]LogFbx: =================================================
+[2017.01.11-03.35.27:460][518]LogFbx: Dumping Node START [Barndoor2] 
+[2017.01.11-03.35.27:460][518]LogFbx: 	Total Deformer Count -1602126656.
+[2017.01.11-03.35.27:460][518]LogFbx: 	Attribute (Cube.009) Type (4).
+[2017.01.11-03.35.27:460][518]LogFbx: 		[Node Attribute Child 1] Barndoor2 (Type Mesh).
+[2017.01.11-03.35.27:460][518]LogFbx: Dumping Node END [Barndoor2]
+[2017.01.11-03.35.27:460][518]LogFbx: =================================================
+[2017.01.11-03.35.27:460][518]LogFbx: Dumping Node START [Barndoor1] 
+[2017.01.11-03.35.27:460][518]LogFbx: 	Total Deformer Count -1602126656.
+[2017.01.11-03.35.27:460][518]LogFbx: 	Attribute (Cube.019) Type (4).
+[2017.01.11-03.35.27:460][518]LogFbx: 		[Node Attribute Child 1] Barndoor1 (Type Mesh).
+[2017.01.11-03.35.27:460][518]LogFbx: Dumping Node END [Barndoor1]
+[2017.01.11-03.35.27:460][518]LogFbx: =================================================
+[2017.01.11-03.35.27:460][518]LogFbx: Dumping Node START [Barndoor2] 
+[2017.01.11-03.35.27:460][518]LogFbx: 	Total Deformer Count -1602126656.
+[2017.01.11-03.35.27:460][518]LogFbx: 	Attribute (Cube.009) Type (4).
+[2017.01.11-03.35.27:460][518]LogFbx: 		[Node Attribute Child 1] Barndoor2 (Type Mesh).
+[2017.01.11-03.35.27:460][518]LogFbx: Dumping Node END [Barndoor2]
+[2017.01.11-03.35.27:460][518]LogFbx: =================================================
+[2017.01.11-03.35.27:460][518]LogFbx: Dumping Node START [Barndoor1] 
+[2017.01.11-03.35.27:460][518]LogFbx: 	Total Deformer Count -1602126656.
+[2017.01.11-03.35.27:460][518]LogFbx: 	Attribute (Cube.019) Type (4).
+[2017.01.11-03.35.27:460][518]LogFbx: 		[Node Attribute Child 1] Barndoor1 (Type Mesh).
+[2017.01.11-03.35.27:460][518]LogFbx: Dumping Node END [Barndoor1]
+[2017.01.11-03.35.27:461][518]LogLinker: Can't find file '/Game/Barn/BarnExterior'
+[2017.01.11-03.35.27:461][518]LogLinker: Can't find file '/Game/Barn/BarnExterior'
+[2017.01.11-03.35.27:461][518]LogLinker: Can't find file '/Game/Barn/BarnExterior'
+[2017.01.11-03.35.27:464][518]LogMaterial: Missing cached shader map for material BarnExterior, compiling. 
+[2017.01.11-03.35.27:483][518]LogLinker: Can't find file '/Game/Barn/Barn'
+[2017.01.11-03.35.27:483][518]LogLinker: Can't find file '/Game/Barn/Barn2'
+[2017.01.11-03.35.27:483][518]LogLinker: Can't find file '/Game/Barn/Barn2'
+[2017.01.11-03.35.27:486][518]LogMaterial: Missing cached shader map for material Barn2, compiling. 
+[2017.01.11-03.35.27:498][518]LogLinker: Can't find file '/Game/Barn/BarnWindow'
+[2017.01.11-03.35.27:498][518]LogLinker: Can't find file '/Game/Barn/BarnWindow'
+[2017.01.11-03.35.27:498][518]LogLinker: Can't find file '/Game/Barn/BarnWindow'
+[2017.01.11-03.35.27:501][518]LogMaterial: Missing cached shader map for material BarnWindow, compiling. 
+[2017.01.11-03.35.27:511][518]LogLinker: Can't find file '/Game/Barn/BarnRoof'
+[2017.01.11-03.35.27:511][518]LogLinker: Can't find file '/Game/Barn/BarnRoof'
+[2017.01.11-03.35.27:511][518]LogLinker: Can't find file '/Game/Barn/BarnRoof'
+[2017.01.11-03.35.27:514][518]LogMaterial: Missing cached shader map for material BarnRoof, compiling. 
+[2017.01.11-03.35.27:526][518]LogLinker: Can't find file '/Game/Barn/BarnInterior'
+[2017.01.11-03.35.27:526][518]LogLinker: Can't find file '/Game/Barn/BarnInterior'
+[2017.01.11-03.35.27:526][518]LogLinker: Can't find file '/Game/Barn/BarnInterior'
+[2017.01.11-03.35.27:530][518]LogMaterial: Missing cached shader map for material BarnInterior, compiling. 
+[2017.01.11-03.35.27:546][518]LogLinker: Can't find file '/Game/Barn/BarnFloor'
+[2017.01.11-03.35.27:546][518]LogLinker: Can't find file '/Game/Barn/BarnFloor'
+[2017.01.11-03.35.27:546][518]LogLinker: Can't find file '/Game/Barn/BarnFloor'
+[2017.01.11-03.35.27:550][518]LogMaterial: Missing cached shader map for material BarnFloor, compiling. 
+[2017.01.11-03.35.27:560][518]LogFbx:Warning: Triangulating static mesh Barn
+[2017.01.11-03.35.27:725][518]LogStaticMesh: Building static mesh Mesh...
+[2017.01.11-03.35.27:729][518]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.01.11-03.35.27:966][518]LogStaticMesh: Built static mesh [0.24s] /Game/Barn/Mesh.Mesh
+[2017.01.11-03.35.27:984][518]LogFbx:Warning: Triangulating static mesh Barndoor2
+[2017.01.11-03.35.27:993][518]LogStaticMesh: Building static mesh Cube_009...
+[2017.01.11-03.35.27:993][518]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.01.11-03.35.28:002][518]LogStaticMesh: Built static mesh [0.01s] /Game/Barn/Cube_009.Cube_009
+[2017.01.11-03.35.28:006][518]LogFbx:Warning: Triangulating static mesh Barndoor1
+[2017.01.11-03.35.28:016][518]LogStaticMesh: Building static mesh Cube_019...
+[2017.01.11-03.35.28:016][518]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.01.11-03.35.28:025][518]LogStaticMesh: Built static mesh [0.01s] /Game/Barn/Cube_019.Cube_019
+[2017.01.11-03.35.28:053][518]LogLinker: Can't find file '/Game/Barn/Barn'
+[2017.01.11-03.35.28:775][518]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 111 classes and 0 folders.
+[2017.01.11-03.35.29:575][518]LogTexture:Display: Building textures: TilePatine_N (BC5)
+[2017.01.11-03.35.29:611][518]LogTexture:Display: Building textures: TilePatine_D (AutoDXT)
+[2017.01.11-03.35.29:821][518]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.01.11-03.35.29:821][518]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.01.11-03.35.29:821][518]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.01.11-03.35.55:789][610]LogFactory: FactoryCreateFile: World with FbxSceneImportFactory (0 0 ../../../../../../Users/Pat/Documents/ProjectSM/ProjectSM/Assets/Barn/Source/Imports/Silo.fbx)
+[2017.01.11-03.35.55:874][610]LogFbx: Loading FBX Scene from ../../../../../../Users/Pat/Documents/ProjectSM/ProjectSM/Assets/Barn/Source/Imports/Silo.fbx
+[2017.01.11-03.35.55:879][610]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.11-03.35.55:881][610]LogFbx: =================================================
+[2017.01.11-03.35.55:881][610]LogFbx: Dumping Node START [Silo_LOD1] 
+[2017.01.11-03.35.55:881][610]LogFbx: 	Total Deformer Count -1775731072.
+[2017.01.11-03.35.55:881][610]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.01.11-03.35.55:881][610]LogFbx: 		[Node Attribute Child 1] Silo_LOD1 (Type Mesh).
+[2017.01.11-03.35.55:881][610]LogFbx: Dumping Node END [Silo_LOD1]
+[2017.01.11-03.35.55:881][610]LogFbx: =================================================
+[2017.01.11-03.35.55:881][610]LogFbx: Dumping Node START [Silo_LOD0] 
+[2017.01.11-03.35.55:881][610]LogFbx: 	Total Deformer Count -1775731072.
+[2017.01.11-03.35.55:881][610]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2017.01.11-03.35.55:881][610]LogFbx: 		[Node Attribute Child 1] Silo_LOD0 (Type Mesh).
+[2017.01.11-03.35.55:881][610]LogFbx: Dumping Node END [Silo_LOD0]
+[2017.01.11-03.35.55:881][610]LogFbx: =================================================
+[2017.01.11-03.35.55:881][610]LogFbx: Dumping Node START [Silo_LOD1] 
+[2017.01.11-03.35.55:881][610]LogFbx: 	Total Deformer Count -1775731072.
+[2017.01.11-03.35.55:881][610]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.01.11-03.35.55:881][610]LogFbx: 		[Node Attribute Child 1] Silo_LOD1 (Type Mesh).
+[2017.01.11-03.35.55:881][610]LogFbx: Dumping Node END [Silo_LOD1]
+[2017.01.11-03.35.55:881][610]LogFbx: =================================================
+[2017.01.11-03.35.55:881][610]LogFbx: Dumping Node START [Silo_LOD0] 
+[2017.01.11-03.35.55:881][610]LogFbx: 	Total Deformer Count -1775731072.
+[2017.01.11-03.35.55:881][610]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2017.01.11-03.35.55:881][610]LogFbx: 		[Node Attribute Child 1] Silo_LOD0 (Type Mesh).
+[2017.01.11-03.35.55:881][610]LogFbx: Dumping Node END [Silo_LOD0]
+[2017.01.11-03.35.57:119][610]LogFbx: =================================================
+[2017.01.11-03.35.57:119][610]LogFbx: Dumping Node START [Silo_LOD1] 
+[2017.01.11-03.35.57:119][610]LogFbx: 	Total Deformer Count -1796795392.
+[2017.01.11-03.35.57:119][610]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.01.11-03.35.57:119][610]LogFbx: 		[Node Attribute Child 1] Silo_LOD1 (Type Mesh).
+[2017.01.11-03.35.57:119][610]LogFbx: Dumping Node END [Silo_LOD1]
+[2017.01.11-03.35.57:119][610]LogFbx: =================================================
+[2017.01.11-03.35.57:119][610]LogFbx: Dumping Node START [Silo_LOD0] 
+[2017.01.11-03.35.57:119][610]LogFbx: 	Total Deformer Count -1796795392.
+[2017.01.11-03.35.57:119][610]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2017.01.11-03.35.57:119][610]LogFbx: 		[Node Attribute Child 1] Silo_LOD0 (Type Mesh).
+[2017.01.11-03.35.57:119][610]LogFbx: Dumping Node END [Silo_LOD0]
+[2017.01.11-03.35.57:119][610]LogFbx: =================================================
+[2017.01.11-03.35.57:119][610]LogFbx: Dumping Node START [Silo_LOD1] 
+[2017.01.11-03.35.57:119][610]LogFbx: 	Total Deformer Count -1796795392.
+[2017.01.11-03.35.57:119][610]LogFbx: 	Attribute (Mesh) Type (4).
+[2017.01.11-03.35.57:119][610]LogFbx: 		[Node Attribute Child 1] Silo_LOD1 (Type Mesh).
+[2017.01.11-03.35.57:119][610]LogFbx: Dumping Node END [Silo_LOD1]
+[2017.01.11-03.35.57:119][610]LogFbx: =================================================
+[2017.01.11-03.35.57:119][610]LogFbx: Dumping Node START [Silo_LOD0] 
+[2017.01.11-03.35.57:119][610]LogFbx: 	Total Deformer Count -1796795392.
+[2017.01.11-03.35.57:119][610]LogFbx: 	Attribute (Mesh.001) Type (4).
+[2017.01.11-03.35.57:119][610]LogFbx: 		[Node Attribute Child 1] Silo_LOD0 (Type Mesh).
+[2017.01.11-03.35.57:119][610]LogFbx: Dumping Node END [Silo_LOD0]
+[2017.01.11-03.35.57:120][610]LogLinker: Can't find file '/Game/Barn/Barn'
+[2017.01.11-03.35.57:120][610]LogLinker: Can't find file '/Game/Barn/Barn3'
+[2017.01.11-03.35.57:120][610]LogLinker: Can't find file '/Game/Barn/Barn3'
+[2017.01.11-03.35.57:126][610]LogMaterial: Missing cached shader map for material Barn3, compiling. 
+[2017.01.11-03.35.57:135][610]LogFbx:Warning: Triangulating static mesh Silo_LOD1
+[2017.01.11-03.35.57:158][610]LogStaticMesh: Building static mesh Mesh...
+[2017.01.11-03.35.57:158][610]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.01.11-03.35.57:168][610]LogStaticMesh: Built static mesh [0.01s] /Game/Barn/Mesh_1.Mesh
+[2017.01.11-03.35.57:174][610]LogFbx:Warning: Triangulating static mesh Silo_LOD0
+[2017.01.11-03.35.57:355][610]LogStaticMesh: Building static mesh Mesh_001...
+[2017.01.11-03.35.57:359][610]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.01.11-03.35.57:436][610]LogStaticMesh: Built static mesh [0.08s] /Game/Barn/Mesh_001.Mesh_001
+[2017.01.11-03.35.57:459][610]LogLinker: Can't find file '/Game/Barn/Barn'
+[2017.01.11-03.35.57:537][610]LogPackageName: SearchForPackageOnDisk took   0.078s, but failed to resolve .
+[2017.01.11-03.35.57:538][610]LogUObjectGlobals:Warning: LoadPackage can't find package .
+[2017.01.11-03.35.57:620][610]LogPackageName: SearchForPackageOnDisk took   0.082s, but failed to resolve .
+[2017.01.11-03.35.57:620][610]LogUObjectGlobals:Warning: LoadPackage can't find package .
+[2017.01.11-03.35.58:034][610]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.01.11-03.36.24:329][140]LogEditorViewport: Clicking on Actor (LMB): FbxScene_Barn_C (FbxScene_Barn)
+[2017.01.11-03.38.24:852][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Barn/FbxScene_Barn" FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Content/Barn/FbxScene_Barn.uasset" SILENT=true
+[2017.01.11-03.38.24:869][487]LogSavePackage: Save=15.50ms
+[2017.01.11-03.38.24:869][487]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/FbxScene_Barn6EE2B1B84857123E94483782457B9525.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Content/Barn/FbxScene_Barn.uasset'
+[2017.01.11-03.38.24:872][487]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Content/Barn/FbxScene_Barn.uasset
+[2017.01.11-03.38.26:615][509]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.01.11-03.39.36:670][959]LogSavePackage: Save=134.46ms
+[2017.01.11-03.39.36:670][959]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Minimal_Default_Auto195E7085E419ABB29D2A589BE737DD570.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2017.01.11-03.39.36:671][959]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2017.01.11-03.39.36:675][959]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.168
+[2017.01.11-03.39.36:675][959]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.168
+[2017.01.11-03.39.36:676][959]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Barn/Barn] ([1] browsable assets)...
+[2017.01.11-03.39.36:676][959]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/Barn]
+[2017.01.11-03.39.36:676][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Barn/Barn" FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.01.11-03.39.36:680][959]LogSavePackage: Save=3.29ms
+[2017.01.11-03.39.36:681][959]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Barn_Auto104F7B77347A293EF70027CA23A5F784D.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn_Auto1.uasset'
+[2017.01.11-03.39.36:681][959]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn_Auto1.uasset
+[2017.01.11-03.39.36:681][959]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/Mesh] ([1] browsable assets)...
+[2017.01.11-03.39.36:695][959]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Barn/Mesh.Mesh]
+[2017.01.11-03.39.36:695][959]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/Mesh]
+[2017.01.11-03.39.36:695][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Barn/Mesh" FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Mesh_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.01.11-03.39.36:706][959]LogSavePackage: Save=9.73ms
+[2017.01.11-03.39.36:706][959]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Mesh_Auto1C1906EB84963B4EB3393D681346B62E0.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Mesh_Auto1.uasset'
+[2017.01.11-03.39.36:707][959]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Mesh_Auto1.uasset
+[2017.01.11-03.39.36:707][959]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/BarnExterior] ([1] browsable assets)...
+[2017.01.11-03.39.36:721][959]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Barn/BarnExterior.BarnExterior]
+[2017.01.11-03.39.36:721][959]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/BarnExterior]
+[2017.01.11-03.39.36:732][959]LogSavePackage: Save=9.85ms
+[2017.01.11-03.39.36:732][959]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/BarnExterior_Auto14BA1B2DF4248FC25A2129CBE5CA188F6.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnExterior_Auto1.uasset'
+[2017.01.11-03.39.36:732][959]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnExterior_Auto1.uasset
+[2017.01.11-03.39.36:733][959]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/Barn2] ([1] browsable assets)...
+[2017.01.11-03.39.36:749][959]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Barn/Barn2.Barn2]
+[2017.01.11-03.39.36:749][959]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/Barn2]
+[2017.01.11-03.39.36:749][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Barn/Barn2" FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.01.11-03.39.36:759][959]LogSavePackage: Save=9.59ms
+[2017.01.11-03.39.36:759][959]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Barn2_Auto18F25D2DE4BBEBD9774BB67B8025EBFF4.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn2_Auto1.uasset'
+[2017.01.11-03.39.36:760][959]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn2_Auto1.uasset
+[2017.01.11-03.39.36:760][959]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/BarnWindow] ([1] browsable assets)...
+[2017.01.11-03.39.36:776][959]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Barn/BarnWindow.BarnWindow]
+[2017.01.11-03.39.36:776][959]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/BarnWindow]
+[2017.01.11-03.39.36:776][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Barn/BarnWindow" FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnWindow_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.01.11-03.39.36:786][959]LogSavePackage: Save=9.67ms
+[2017.01.11-03.39.36:787][959]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/BarnWindow_Auto1FBFEEF604A415946169783B48FB76768.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnWindow_Auto1.uasset'
+[2017.01.11-03.39.36:787][959]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnWindow_Auto1.uasset
+[2017.01.11-03.39.36:787][959]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/BarnRoof] ([1] browsable assets)...
+[2017.01.11-03.39.36:801][959]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Barn/BarnRoof.BarnRoof]
+[2017.01.11-03.39.36:801][959]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/BarnRoof]
+[2017.01.11-03.39.36:801][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Barn/BarnRoof" FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnRoof_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.01.11-03.39.36:812][959]LogSavePackage: Save=9.71ms
+[2017.01.11-03.39.36:812][959]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/BarnRoof_Auto1B9665F9642B9AEB3DD941E859C719D5B.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnRoof_Auto1.uasset'
+[2017.01.11-03.39.36:812][959]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnRoof_Auto1.uasset
+[2017.01.11-03.39.36:813][959]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/BarnInterior] ([1] browsable assets)...
+[2017.01.11-03.39.36:826][959]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Barn/BarnInterior.BarnInterior]
+[2017.01.11-03.39.36:826][959]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/BarnInterior]
+[2017.01.11-03.39.36:837][959]LogSavePackage: Save=10.09ms
+[2017.01.11-03.39.36:837][959]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/BarnInterior_Auto119E0940C4F21B431485CFA9A59C3E227.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnInterior_Auto1.uasset'
+[2017.01.11-03.39.36:838][959]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnInterior_Auto1.uasset
+[2017.01.11-03.39.36:838][959]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/BarnFloor] ([1] browsable assets)...
+[2017.01.11-03.39.36:852][959]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Barn/BarnFloor.BarnFloor]
+[2017.01.11-03.39.36:852][959]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/BarnFloor]
+[2017.01.11-03.39.36:852][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Barn/BarnFloor" FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnFloor_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.01.11-03.39.36:863][959]LogSavePackage: Save=9.88ms
+[2017.01.11-03.39.36:863][959]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/BarnFloor_Auto108690B254FF36F4122C21599F5E79B3E.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnFloor_Auto1.uasset'
+[2017.01.11-03.39.36:864][959]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnFloor_Auto1.uasset
+[2017.01.11-03.39.36:864][959]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/Cube_009] ([1] browsable assets)...
+[2017.01.11-03.39.36:879][959]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Barn/Cube_009.Cube_009]
+[2017.01.11-03.39.36:879][959]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/Cube_009]
+[2017.01.11-03.39.36:880][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Barn/Cube_009" FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Cube_009_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.01.11-03.39.36:890][959]LogSavePackage: Save=8.74ms
+[2017.01.11-03.39.36:890][959]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Cube_009_Auto11F3FFB10458CE7FF509153A3C90987EE.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Cube_009_Auto1.uasset'
+[2017.01.11-03.39.36:891][959]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Cube_009_Auto1.uasset
+[2017.01.11-03.39.36:891][959]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/Cube_019] ([1] browsable assets)...
+[2017.01.11-03.39.36:906][959]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Barn/Cube_019.Cube_019]
+[2017.01.11-03.39.36:906][959]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/Cube_019]
+[2017.01.11-03.39.36:906][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Barn/Cube_019" FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Cube_019_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.01.11-03.39.36:916][959]LogSavePackage: Save=8.97ms
+[2017.01.11-03.39.36:916][959]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Cube_019_Auto1F4F2D1484170C8C083D22A8AE620BFA9.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Cube_019_Auto1.uasset'
+[2017.01.11-03.39.36:918][959]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Cube_019_Auto1.uasset
+[2017.01.11-03.39.36:918][959]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Barn/Silo] ([1] browsable assets)...
+[2017.01.11-03.39.36:918][959]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/Silo]
+[2017.01.11-03.39.36:918][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Barn/Silo" FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Silo_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.01.11-03.39.36:922][959]LogSavePackage: Save=3.14ms
+[2017.01.11-03.39.36:922][959]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Silo_Auto13C9AC4154B4F06652FC991ADF9C39EBA.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Silo_Auto1.uasset'
+[2017.01.11-03.39.36:923][959]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Silo_Auto1.uasset
+[2017.01.11-03.39.36:923][959]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/Mesh_1] ([1] browsable assets)...
+[2017.01.11-03.39.36:936][959]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Barn/Mesh_1.Mesh]
+[2017.01.11-03.39.36:936][959]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/Mesh_1]
+[2017.01.11-03.39.36:936][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Barn/Mesh_1" FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Mesh_1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.01.11-03.39.36:946][959]LogSavePackage: Save=8.86ms
+[2017.01.11-03.39.36:946][959]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Mesh_1_Auto1DE1D38C8412CF9D188EAE58775515F58.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Mesh_1_Auto1.uasset'
+[2017.01.11-03.39.36:947][959]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Mesh_1_Auto1.uasset
+[2017.01.11-03.39.36:947][959]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/Barn3] ([1] browsable assets)...
+[2017.01.11-03.39.36:960][959]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Barn/Barn3.Barn3]
+[2017.01.11-03.39.36:960][959]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/Barn3]
+[2017.01.11-03.39.36:960][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Barn/Barn3" FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn3_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.01.11-03.39.36:972][959]LogSavePackage: Save=9.68ms
+[2017.01.11-03.39.36:972][959]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Barn3_Auto1DAAC12D349162A9CF59952A1D2AB59AA.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn3_Auto1.uasset'
+[2017.01.11-03.39.36:972][959]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn3_Auto1.uasset
+[2017.01.11-03.39.36:972][959]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/Mesh_001] ([1] browsable assets)...
+[2017.01.11-03.39.36:986][959]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Barn/Mesh_001.Mesh_001]
+[2017.01.11-03.39.36:986][959]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/Mesh_001]
+[2017.01.11-03.39.36:986][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Barn/Mesh_001" FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Mesh_001_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.01.11-03.39.36:997][959]LogSavePackage: Save=8.85ms
+[2017.01.11-03.39.36:997][959]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Mesh_001_Auto14888BC3048E201B5041B3C9120268B76.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Mesh_001_Auto1.uasset'
+[2017.01.11-03.39.36:997][959]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Mesh_001_Auto1.uasset
+[2017.01.11-03.39.36:998][959]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/FbxScene_Silo] ([1] browsable assets)...
+[2017.01.11-03.39.37:012][959]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Barn/FbxScene_Silo.FbxScene_Silo]
+[2017.01.11-03.39.37:012][959]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/FbxScene_Silo]
+[2017.01.11-03.39.37:028][959]LogSavePackage: Save=14.36ms
+[2017.01.11-03.39.37:028][959]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/FbxScene_Silo_Auto117576F184434ADF0E3CA47AF527F7491.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/FbxScene_Silo_Auto1.uasset'
+[2017.01.11-03.39.37:029][959]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/FbxScene_Silo_Auto1.uasset
+[2017.01.11-03.39.37:029][959]LogFileHelpers: Auto-saving content packages took 0.353
+[2017.01.11-03.47.20:672][781]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.01.11-03.48.28:686][186]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\BarnExterior_Albedo.png)
+[2017.01.11-03.48.28:733][186]LogTexture:Display: Building textures: BarnExterior_Albedo (AutoDXT)
+[2017.01.11-03.48.29:191][186]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\BarnExterior_AO.png)
+[2017.01.11-03.48.29:218][186]LogTexture:Display: Building textures: BarnExterior_AO (AutoDXT)
+[2017.01.11-03.48.29:359][186]LogAssetTools:Warning: Failed to import 'C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\BarnExterior_Metallic.tif'. Unknown extension 'tif'.
+[2017.01.11-03.48.29:365][186]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\BarnExterior_Normal.png)
+[2017.01.11-03.48.29:419][186]LogTexture:Display: Building textures: BarnExterior_Normal (BC5)
+[2017.01.11-03.48.29:501][186]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\BarnFloor_Albedo.png)
+[2017.01.11-03.48.29:530][186]LogTexture:Display: Building textures: BarnFloor_Albedo (AutoDXT)
+[2017.01.11-03.48.30:199][186]LogAssetTools:Warning: Failed to import 'C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\BarnFloor_Metallic.tif'. Unknown extension 'tif'.
+[2017.01.11-03.48.30:205][186]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\BarnFloor_Normal.png)
+[2017.01.11-03.48.30:267][186]LogTexture:Display: Building textures: BarnFloor_Normal (BC5)
+[2017.01.11-03.48.30:389][186]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\BarnInterior_Albedo.png)
+[2017.01.11-03.48.30:430][186]LogTexture:Display: Building textures: BarnInterior_Albedo (AutoDXT)
+[2017.01.11-03.48.30:809][186]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\BarnInterior_AO.png)
+[2017.01.11-03.48.30:832][186]LogTexture:Display: Building textures: BarnInterior_AO (AutoDXT)
+[2017.01.11-03.48.30:976][186]LogAssetTools:Warning: Failed to import 'C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\BarnInterior_Metallic.tif'. Unknown extension 'tif'.
+[2017.01.11-03.48.30:980][186]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\BarnInterior_Normal.png)
+[2017.01.11-03.48.31:022][186]LogTexture:Display: Building textures: BarnInterior_Normal (BC5)
+[2017.01.11-03.48.31:098][186]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\BarnRoof_Albedo.png)
+[2017.01.11-03.48.31:117][186]LogTexture:Display: Building textures: BarnRoof_Albedo (AutoDXT)
+[2017.01.11-03.48.31:413][186]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\BarnRoof_AO.png)
+[2017.01.11-03.48.31:422][186]LogTexture:Display: Building textures: BarnRoof_AO (AutoDXT)
+[2017.01.11-03.48.31:493][186]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\BarnRoof_Normal.png)
+[2017.01.11-03.48.31:516][186]LogTexture:Display: Building textures: BarnRoof_Normal (BC5)
+[2017.01.11-03.48.31:569][186]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\hay_detail.png)
+[2017.01.11-03.48.31:582][186]LogTexture:Display: Building textures: hay_detail (AutoDXT)
+[2017.01.11-03.48.31:738][186]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\Haybale.fbx)
+[2017.01.11-03.48.31:750][186]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.01.11-03.48.31:750][186]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.01.11-03.48.31:750][186]LogFbx: ItemName: Model, ItemCount : 1
+[2017.01.11-03.48.31:750][186]LogFbx: ItemName: Material, ItemCount : 1
+[2017.01.11-03.48.31:753][186]LogFbx: Loading FBX Scene from C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\Haybale.fbx
+[2017.01.11-03.48.31:758][186]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.11-03.50.19:025][186]LogFbx: Loading FBX Scene from C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\Haybale.fbx
+[2017.01.11-03.50.19:029][186]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.11-03.50.19:063][186]LogLinker: Can't find file '/Game/Barn/Haybale'
+[2017.01.11-03.50.19:065][186]LogFbx:Warning: Triangulating static mesh Haybale
+[2017.01.11-03.50.19:081][186]LogStaticMesh: Building static mesh Haybale...
+[2017.01.11-03.50.19:087][186]LogStaticMesh: Built static mesh [0.01s] /Game/Barn/Haybale.Haybale
+[2017.01.11-03.50.19:093][186]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.01.11-03.50.19:118][186]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\Haybale_Albedo.png)
+[2017.01.11-03.50.19:337][186]LogTexture:Display: Building textures: Haybale_Albedo (AutoDXT)
+[2017.01.11-03.50.21:062][186]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\Haybale_normals.png)
+[2017.01.11-03.50.21:298][186]LogTexture:Display: Building textures: Haybale_normals (BC5)
+[2017.01.11-03.50.27:129][186]LogAssetTools:Warning: Failed to delete '/Game/Barn/Silo'. The asset is referenced by other content.
+[2017.01.11-03.50.27:134][186]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\Silo_Brown.fbx)
+[2017.01.11-03.50.27:291][186]LogFbx: Loading FBX Scene from C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\Silo_Brown.fbx
+[2017.01.11-03.50.27:297][186]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.11-03.50.27:368][186]LogLinker: Can't find file '/Game/Barn/Barn'
+[2017.01.11-03.50.27:369][186]LogFbx:Warning: Triangulating static mesh Silo_BR_LOD0
+[2017.01.11-03.50.27:517][186]LogFbx:Warning: Triangulating static mesh Silo_BR_LOD1
+[2017.01.11-03.50.27:541][186]LogStaticMesh: Building static mesh Silo_Brown...
+[2017.01.11-03.50.27:597][186]LogStaticMesh: Built static mesh [0.06s] /Game/Barn/Silo_Brown.Silo_Brown
+[2017.01.11-03.50.27:643][186]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.01.11-03.50.33:883][186]LogAssetTools:Warning: Failed to delete '/Game/Barn/Barn'. The asset is referenced by other content.
+[2017.01.11-03.50.33:896][186]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\Barn_Albedo.png)
+[2017.01.11-03.50.34:118][186]LogTexture:Display: Building textures: Barn_Albedo (AutoDXT)
+[2017.01.11-03.50.35:851][186]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\Barn_Brown.fbx)
+[2017.01.11-03.50.35:893][186]LogFbx: Loading FBX Scene from C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\Barn_Brown.fbx
+[2017.01.11-03.50.35:899][186]LogFbx: FBX Scene Loaded Succesfully
+[2017.01.11-03.50.35:971][186]LogLinker: Can't find file '/Game/Barn/Barn'
+[2017.01.11-03.50.35:973][186]LogFbx:Warning: Triangulating static mesh Barn_Brown
+[2017.01.11-03.50.36:108][186]LogFbx:Warning: Triangulating static mesh Barndoor1.001
+[2017.01.11-03.50.36:114][186]LogFbx:Warning: Triangulating static mesh Barndoor2.001
+[2017.01.11-03.50.36:124][186]LogStaticMesh: Building static mesh Barn_Brown...
+[2017.01.11-03.50.36:363][186]LogStaticMesh: Built static mesh [0.24s] /Game/Barn/Barn_Brown.Barn_Brown
+[2017.01.11-03.50.36:404][186]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.01.11-03.50.36:454][186]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\Barn_ExteriorDecal.png)
+[2017.01.11-03.50.36:494][186]LogTexture:Display: Building textures: Barn_ExteriorDecal (AutoDXT)
+[2017.01.11-03.50.36:963][186]LogAssetTools:Warning: Failed to import 'C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\Barn_Metallic.tif'. Unknown extension 'tif'.
+[2017.01.11-03.50.36:970][186]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\Barn_Normal.png)
+[2017.01.11-03.50.37:141][186]LogTexture:Display: Building textures: Barn_Normal (BC5)
+[2017.01.11-03.50.43:706][236]LogEditorViewport: Clicking on Actor (LMB): FbxScene_Barn_C (FbxScene_Barn)
+[2017.01.11-03.50.45:035][251]LogEditorViewport: Clicking on Actor (context menu): FbxScene_Barn_C (FbxScene_Barn)
+[2017.01.11-03.51.09:946][476]LogTexture:Display: Building textures: T_Brick_Clay_Old_D (AutoDXT)
+[2017.01.11-03.51.11:781][476]LogTexture:Display: Building textures: T_Perlin_Noise_M (AutoDXT)
+[2017.01.11-03.51.13:541][476]LogTexture:Display: Building textures: T_Brick_Clay_Old_N (BC5)
+[2017.01.11-03.51.57:435][695]LogSavePackage: Save=386.60ms
+[2017.01.11-03.51.57:435][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Minimal_Default_Auto2FC3942FE44FD6E983E23E4938DFBE8BC.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2017.01.11-03.51.57:436][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap
+[2017.01.11-03.51.57:437][695]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.409
+[2017.01.11-03.51.57:437][695]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.409
+[2017.01.11-03.51.57:441][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/FbxScene_Barn] ([1] browsable assets)...
+[2017.01.11-03.51.57:459][695]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Barn/FbxScene_Barn.FbxScene_Barn]
+[2017.01.11-03.51.57:459][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/FbxScene_Barn]
+[2017.01.11-03.51.57:481][695]LogSavePackage: Save=16.74ms
+[2017.01.11-03.51.57:481][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/FbxScene_Barn_Auto2785D46D244CA0E2539C9D4BCAF7C2426.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/FbxScene_Barn_Auto2.uasset'
+[2017.01.11-03.51.57:483][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/FbxScene_Barn_Auto2.uasset
+[2017.01.11-03.51.57:483][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/BarnExterior_Albedo] ([1] browsable assets)...
+[2017.01.11-03.51.57:493][695]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Barn/BarnExterior_Albedo.BarnExterior_Albedo]
+[2017.01.11-03.51.57:493][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/BarnExterior_Albedo]
+[2017.01.11-03.51.57:510][695]LogSavePackage: Save=15.19ms
+[2017.01.11-03.51.57:510][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/BarnExterior_Albedo_Auto22AD5269940B239433A19658A82C290E4.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnExterior_Albedo_Auto2.uasset'
+[2017.01.11-03.51.57:511][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnExterior_Albedo_Auto2.uasset
+[2017.01.11-03.51.57:512][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/BarnExterior_AO] ([1] browsable assets)...
+[2017.01.11-03.51.57:520][695]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Barn/BarnExterior_AO.BarnExterior_AO]
+[2017.01.11-03.51.57:520][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/BarnExterior_AO]
+[2017.01.11-03.51.57:529][695]LogSavePackage: Save=7.69ms
+[2017.01.11-03.51.57:529][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/BarnExterior_AO_Auto209E65A9E404A6B5CA2C54E82A9D8D01B.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnExterior_AO_Auto2.uasset'
+[2017.01.11-03.51.57:530][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnExterior_AO_Auto2.uasset
+[2017.01.11-03.51.57:530][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/BarnExterior_Normal] ([1] browsable assets)...
+[2017.01.11-03.51.57:538][695]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Barn/BarnExterior_Normal.BarnExterior_Normal]
+[2017.01.11-03.51.57:538][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/BarnExterior_Normal]
+[2017.01.11-03.51.57:554][695]LogSavePackage: Save=15.11ms
+[2017.01.11-03.51.57:554][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/BarnExterior_Normal_Auto25A3B075E484172A05426E5B1682E4F63.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnExterior_Normal_Auto2.uasset'
+[2017.01.11-03.51.57:556][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnExterior_Normal_Auto2.uasset
+[2017.01.11-03.51.57:556][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/BarnFloor_Albedo] ([1] browsable assets)...
+[2017.01.11-03.51.57:565][695]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Barn/BarnFloor_Albedo.BarnFloor_Albedo]
+[2017.01.11-03.51.57:565][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/BarnFloor_Albedo]
+[2017.01.11-03.51.57:579][695]LogSavePackage: Save=13.31ms
+[2017.01.11-03.51.57:579][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/BarnFloor_Albedo_Auto2A77CCB9343CAF6797148109D8DE2A190.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnFloor_Albedo_Auto2.uasset'
+[2017.01.11-03.51.57:580][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnFloor_Albedo_Auto2.uasset
+[2017.01.11-03.51.57:581][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/BarnFloor_Normal] ([1] browsable assets)...
+[2017.01.11-03.51.57:588][695]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Barn/BarnFloor_Normal.BarnFloor_Normal]
+[2017.01.11-03.51.57:588][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/BarnFloor_Normal]
+[2017.01.11-03.51.57:603][695]LogSavePackage: Save=14.21ms
+[2017.01.11-03.51.57:603][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/BarnFloor_Normal_Auto24C38C67C454970C0937ECEB4F19B7DD9.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnFloor_Normal_Auto2.uasset'
+[2017.01.11-03.51.57:604][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnFloor_Normal_Auto2.uasset
+[2017.01.11-03.51.57:605][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/BarnInterior_Albedo] ([1] browsable assets)...
+[2017.01.11-03.51.57:612][695]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Barn/BarnInterior_Albedo.BarnInterior_Albedo]
+[2017.01.11-03.51.57:612][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/BarnInterior_Albedo]
+[2017.01.11-03.51.57:626][695]LogSavePackage: Save=12.86ms
+[2017.01.11-03.51.57:626][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/BarnInterior_Albedo_Auto28ECD4C6649906833358705A4E055A5C8.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnInterior_Albedo_Auto2.uasset'
+[2017.01.11-03.51.57:627][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnInterior_Albedo_Auto2.uasset
+[2017.01.11-03.51.57:628][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/BarnInterior_AO] ([1] browsable assets)...
+[2017.01.11-03.51.57:636][695]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Barn/BarnInterior_AO.BarnInterior_AO]
+[2017.01.11-03.51.57:636][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/BarnInterior_AO]
+[2017.01.11-03.51.57:646][695]LogSavePackage: Save=8.94ms
+[2017.01.11-03.51.57:646][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/BarnInterior_AO_Auto2007445B846EF7323E0D7998E8919EDEA.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnInterior_AO_Auto2.uasset'
+[2017.01.11-03.51.57:647][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnInterior_AO_Auto2.uasset
+[2017.01.11-03.51.57:647][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/BarnInterior_Normal] ([1] browsable assets)...
+[2017.01.11-03.51.57:655][695]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Barn/BarnInterior_Normal.BarnInterior_Normal]
+[2017.01.11-03.51.57:655][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/BarnInterior_Normal]
+[2017.01.11-03.51.57:666][695]LogSavePackage: Save=10.78ms
+[2017.01.11-03.51.57:667][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/BarnInterior_Normal_Auto2657187BD4BC3B661173964BFBA342A18.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnInterior_Normal_Auto2.uasset'
+[2017.01.11-03.51.57:667][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnInterior_Normal_Auto2.uasset
+[2017.01.11-03.51.57:668][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/BarnRoof_Albedo] ([1] browsable assets)...
+[2017.01.11-03.51.57:676][695]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Barn/BarnRoof_Albedo.BarnRoof_Albedo]
+[2017.01.11-03.51.57:676][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/BarnRoof_Albedo]
+[2017.01.11-03.51.57:688][695]LogSavePackage: Save=11.08ms
+[2017.01.11-03.51.57:688][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/BarnRoof_Albedo_Auto273D743094137EECD1A1A85B8B1391056.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnRoof_Albedo_Auto2.uasset'
+[2017.01.11-03.51.57:689][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnRoof_Albedo_Auto2.uasset
+[2017.01.11-03.51.57:689][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/BarnRoof_AO] ([1] browsable assets)...
+[2017.01.11-03.51.57:697][695]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Barn/BarnRoof_AO.BarnRoof_AO]
+[2017.01.11-03.51.57:697][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/BarnRoof_AO]
+[2017.01.11-03.51.57:697][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Barn/BarnRoof_AO" FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnRoof_AO_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.11-03.51.57:706][695]LogSavePackage: Save=7.28ms
+[2017.01.11-03.51.57:706][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/BarnRoof_AO_Auto2030E5078450CC840FF7915B6E468E040.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnRoof_AO_Auto2.uasset'
+[2017.01.11-03.51.57:706][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnRoof_AO_Auto2.uasset
+[2017.01.11-03.51.57:707][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/BarnRoof_Normal] ([1] browsable assets)...
+[2017.01.11-03.51.57:714][695]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Barn/BarnRoof_Normal.BarnRoof_Normal]
+[2017.01.11-03.51.57:714][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/BarnRoof_Normal]
+[2017.01.11-03.51.57:728][695]LogSavePackage: Save=13.23ms
+[2017.01.11-03.51.57:728][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/BarnRoof_Normal_Auto23A21F27E4686DF1F55CE05ABB0BAF1E5.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnRoof_Normal_Auto2.uasset'
+[2017.01.11-03.51.57:729][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/BarnRoof_Normal_Auto2.uasset
+[2017.01.11-03.51.57:730][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/hay_detail] ([1] browsable assets)...
+[2017.01.11-03.51.57:737][695]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Barn/hay_detail.hay_detail]
+[2017.01.11-03.51.57:738][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/hay_detail]
+[2017.01.11-03.51.57:738][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Barn/hay_detail" FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/hay_detail_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.11-03.51.57:751][695]LogSavePackage: Save=12.16ms
+[2017.01.11-03.51.57:751][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/hay_detail_Auto26100A9F24EFF163AD13E92A4FFE74596.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/hay_detail_Auto2.uasset'
+[2017.01.11-03.51.57:752][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/hay_detail_Auto2.uasset
+[2017.01.11-03.51.57:752][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/Haybale] ([1] browsable assets)...
+[2017.01.11-03.51.57:765][695]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Barn/Haybale.Haybale]
+[2017.01.11-03.51.57:765][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/Haybale]
+[2017.01.11-03.51.57:765][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Barn/Haybale" FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Haybale_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.11-03.51.57:776][695]LogSavePackage: Save=9.03ms
+[2017.01.11-03.51.57:776][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Haybale_Auto24A03B14D466B721960123F90354B1093.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Haybale_Auto2.uasset'
+[2017.01.11-03.51.57:777][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Haybale_Auto2.uasset
+[2017.01.11-03.51.57:777][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/Haybale2] ([1] browsable assets)...
+[2017.01.11-03.51.57:791][695]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Barn/Haybale2.Haybale2]
+[2017.01.11-03.51.57:791][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/Haybale2]
+[2017.01.11-03.51.57:791][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Barn/Haybale2" FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Haybale2_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.11-03.51.57:801][695]LogSavePackage: Save=9.68ms
+[2017.01.11-03.51.57:801][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Haybale2_Auto2B03ECFE84F2443856377F5B78C1608FB.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Haybale2_Auto2.uasset'
+[2017.01.11-03.51.57:802][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Haybale2_Auto2.uasset
+[2017.01.11-03.51.57:803][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/Haybale_Albedo] ([1] browsable assets)...
+[2017.01.11-03.51.57:809][695]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Barn/Haybale_Albedo.Haybale_Albedo]
+[2017.01.11-03.51.57:809][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/Haybale_Albedo]
+[2017.01.11-03.51.57:823][695]LogSavePackage: Save=12.56ms
+[2017.01.11-03.51.57:823][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Haybale_Albedo_Auto28DC0FA624E272B3A85C0738CC279EA03.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Haybale_Albedo_Auto2.uasset'
+[2017.01.11-03.51.57:824][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Haybale_Albedo_Auto2.uasset
+[2017.01.11-03.51.57:824][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/Haybale_normals] ([1] browsable assets)...
+[2017.01.11-03.51.57:831][695]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Barn/Haybale_normals.Haybale_normals]
+[2017.01.11-03.51.57:831][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/Haybale_normals]
+[2017.01.11-03.51.57:849][695]LogSavePackage: Save=16.28ms
+[2017.01.11-03.51.57:849][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Haybale_normals_Auto206461B9B44FD91A464E40BAE924DF1F9.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Haybale_normals_Auto2.uasset'
+[2017.01.11-03.51.57:850][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Haybale_normals_Auto2.uasset
+[2017.01.11-03.51.57:850][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/Silo_Brown] ([1] browsable assets)...
+[2017.01.11-03.51.57:864][695]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Barn/Silo_Brown.Silo_Brown]
+[2017.01.11-03.51.57:864][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/Silo_Brown]
+[2017.01.11-03.51.57:864][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Barn/Silo_Brown" FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Silo_Brown_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.11-03.51.57:876][695]LogSavePackage: Save=10.56ms
+[2017.01.11-03.51.57:876][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Silo_Brown_Auto2637D02394798747C847C3391AA70326B.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Silo_Brown_Auto2.uasset'
+[2017.01.11-03.51.57:877][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Silo_Brown_Auto2.uasset
+[2017.01.11-03.51.57:877][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/Barn4] ([1] browsable assets)...
+[2017.01.11-03.51.57:896][695]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Barn/Barn4.Barn4]
+[2017.01.11-03.51.57:896][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/Barn4]
+[2017.01.11-03.51.57:896][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Barn/Barn4" FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn4_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.11-03.51.57:916][695]LogSavePackage: Save=15.60ms
+[2017.01.11-03.51.57:916][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Barn4_Auto23B509B864CDCE2D543602B9D41760364.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn4_Auto2.uasset'
+[2017.01.11-03.51.57:917][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn4_Auto2.uasset
+[2017.01.11-03.51.57:917][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/Barn_Albedo] ([1] browsable assets)...
+[2017.01.11-03.51.57:925][695]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Barn/Barn_Albedo.Barn_Albedo]
+[2017.01.11-03.51.57:925][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/Barn_Albedo]
+[2017.01.11-03.51.57:925][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Barn/Barn_Albedo" FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn_Albedo_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.11-03.51.58:117][695]LogSavePackage: Save=190.73ms
+[2017.01.11-03.51.58:120][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Barn_Albedo_Auto20BC118A549CF5E8F62A87F943FBFFDA9.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn_Albedo_Auto2.uasset'
+[2017.01.11-03.51.58:120][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn_Albedo_Auto2.uasset
+[2017.01.11-03.51.58:121][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/Barn_Brown] ([1] browsable assets)...
+[2017.01.11-03.51.58:155][695]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Barn/Barn_Brown.Barn_Brown]
+[2017.01.11-03.51.58:157][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/Barn_Brown]
+[2017.01.11-03.51.58:157][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Barn/Barn_Brown" FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn_Brown_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.11-03.51.58:187][695]LogSavePackage: Save=28.56ms
+[2017.01.11-03.51.58:187][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Barn_Brown_Auto297CAE65643AE0B39DE563FA9C541AECF.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn_Brown_Auto2.uasset'
+[2017.01.11-03.51.58:188][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn_Brown_Auto2.uasset
+[2017.01.11-03.51.58:189][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/Barn5] ([1] browsable assets)...
+[2017.01.11-03.51.58:214][695]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Barn/Barn5.Barn5]
+[2017.01.11-03.51.58:214][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/Barn5]
+[2017.01.11-03.51.58:214][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Barn/Barn5" FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn5_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.11-03.51.58:234][695]LogSavePackage: Save=16.93ms
+[2017.01.11-03.51.58:235][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Barn5_Auto2B8C31F1B4B62EAE9EB037F94949F0D9B.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn5_Auto2.uasset'
+[2017.01.11-03.51.58:236][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn5_Auto2.uasset
+[2017.01.11-03.51.58:236][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/Barn_ExteriorDecal] ([1] browsable assets)...
+[2017.01.11-03.51.58:257][695]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Barn/Barn_ExteriorDecal.Barn_ExteriorDecal]
+[2017.01.11-03.51.58:257][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/Barn_ExteriorDecal]
+[2017.01.11-03.51.58:280][695]LogSavePackage: Save=21.70ms
+[2017.01.11-03.51.58:280][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Barn_ExteriorDecal_Auto2D51C744E465D17AAAD864BB1F2282470.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn_ExteriorDecal_Auto2.uasset'
+[2017.01.11-03.51.58:282][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn_ExteriorDecal_Auto2.uasset
+[2017.01.11-03.51.58:282][695]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Barn/Barn_Normal] ([1] browsable assets)...
+[2017.01.11-03.51.58:390][695]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Barn/Barn_Normal.Barn_Normal]
+[2017.01.11-03.51.58:390][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Barn/Barn_Normal]
+[2017.01.11-03.51.58:417][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Barn/Barn_Normal" FILE="../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn_Normal_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.11-03.51.58:436][695]LogSavePackage: Save=15.60ms
+[2017.01.11-03.51.58:437][695]LogSavePackage: Moving '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Barn_Normal_Auto25E7E5EEE429D4296B294F0ACB39B8666.tmp' to '../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn_Normal_Auto2.uasset'
+[2017.01.11-03.51.58:438][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Pat/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Barn/Barn_Normal_Auto2.uasset
+[2017.01.11-03.51.58:438][695]LogFileHelpers: Auto-saving content packages took 0.998
+[2017.01.11-03.56.30:146][891]LogAssetTools:Warning: Failed to import 'C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\Materials/Barn.mat'. Unknown extension 'mat'.
+[2017.01.11-03.56.30:153][891]LogAssetTools:Warning: Failed to import 'C:\Users\Pat\Documents\ProjectSM\ProjectSM\Assets\Barn\Source\Imports\Materials/Barn.mat.meta'. Unknown extension 'meta'.
+[2017.01.11-03.56.30:160][891]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.006 s
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: === Handled ensure: ===
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: 
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: Ensure condition failed: ExpectedWorkThisFrame <= 1.01f * TotalAmountOfWork - CompletedWork [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Runtime\Core\Private\Misc\SlowTask.cpp] [Line: 80]
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: Work overflow in slow task. Please revise call-site to account for entire progress range.
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: Stack: 
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor-AssetTools.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor-AssetTools.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: ole32.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: RPCRT4.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: RPCRT4.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: RPCRT4.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: combase.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: combase.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: combase.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: combase.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: combase.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: combase.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: combase.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: combase.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: USER32.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: USER32.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor.exe
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor.exe
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor.exe
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor.exe
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: UE4Editor.exe
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: KERNEL32.DLL
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: ntdll.dll
+[2017.01.11-03.56.30:160][891]LogOutputDevice:Error: 
+[2017.01.11-03.56.30:169][891]LogStats:                SubmitErrorReport -  0.000 s
